@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermal Printer Template</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+        }
+        .receipt {
+            width: 58mm; /* Matches the thermal printer width */
+            margin: auto;
+            padding: 5px;
+            border: 1px solid #000;
+        }
+        .receipt-header, .receipt-footer {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            text-align: left;
+            padding: 5px;
+        }
+        th {
+            border-bottom: 1px solid #000;
+        }
+        .item-name {
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="receipt">
+        <div class="receipt-header">
+            <h2>கடையின் பெயர்</h2>
+            <p>முகவரி, நகரம், தொலைபேசி</p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>பொருட்கள்</th>
+                    <th>அளவு</th>
+                    <th>தொகை</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td class="item-name">மிளகு</td><td></td><td></td></tr>
+                <tr><td class="item-name">முழு மல்லி</td><td></td><td></td></tr>
+                <tr><td class="item-name">கசகசா</td><td></td><td></td></tr>
+                <tr><td class="item-name">மிளகாய் வத்தல்</td><td></td><td></td></tr>
+                <tr><td class="item-name">பட்டை</td><td></td><td></td></tr>
+                <tr><td class="item-name">கிராம்பு</td><td></td><td></td></tr>
+                <tr><td class="item-name">ஏலம்</td><td></td><td></td></tr>
+                <tr><td class="item-name">கல் உப்பு</td><td></td><td></td></tr>
+                <tr><td class="item-name">சாம்பார் பொடி</td><td></td><td></td></tr>
+                <tr><td class="item-name">மஞ்சள் தூள்</td><td></td><td></td></tr>
+                <tr><td class="item-name">ரவா</td><td></td><td></td></tr>
+                <tr><td class="item-name">3 ரோசஸ் டீ தூள்</td><td></td><td></td></tr>
+                <tr><td class="item-name">பொட்டுக்கடலை</td><td></td><td></td></tr>
+                <tr><td class="item-name">நாட்டு சக்கரை</td><td></td><td></td></tr>
+                <tr><td class="item-name">விண் சோப்பு</td><td></td><td></td></tr>
+                <tr><td class="item-name">விம் லிக்யூட்</td><td></td><td></td></tr>
+                <tr><td class="item-name">பச்சை பட்டாணி</td><td></td><td></td></tr>
+            </tbody>
+        </table>
+        <div class="receipt-footer">
+            <p>நன்றி! மீண்டும் வருக!</p>
+        </div>
+    </div>
+</body>
+</html>
